@@ -52,7 +52,7 @@ int main()
     int srt[num];
     fillArrayWithValue(srt, num);
     startClock = clock();
-    insertionSortRecursive(srt, num);
+    insertionSort(srt, num);
     finishClock = clock();
     timeCount = finishClock - startClock;
     printf("Sorted array : \n");
